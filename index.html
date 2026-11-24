@@ -249,7 +249,33 @@ h1, h2, h3, .disp {
 <header class="sticky top-0 z-40 backdrop-blur-md" style="background:color-mix(in srgb,var(--bg) 82%,transparent);border-bottom:1px solid var(--line)">
   <div class="mx-auto max-w-6xl px-5 h-16 flex items-center justify-between">
     <a href="#top" class="disp text-lg sm:text-xl font-extrabold flex items-center gap-2.5">
-      <span class="grid place-items-center w-9 h-9 rounded-xl text-white font-bold shadow-md" style="background:var(--grad-main)">HT</span>
+      <!-- Custom High Tech Super Shop V1.0 Vector Logo -->
+      <span class="grid place-items-center w-10 h-10 rounded-xl bg-white dark:bg-slate-900 shadow-md p-0.5 shrink-0">
+        <svg viewBox="0 0 64 64" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <linearGradient id="htLogoGrad" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#06B6D4"/>
+              <stop offset="50%" stop-color="#6366F1"/>
+              <stop offset="100%" stop-color="#EC4899"/>
+            </linearGradient>
+            <linearGradient id="htArrowGrad" x1="16" y1="42" x2="52" y2="16" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#A855F7"/>
+              <stop offset="60%" stop-color="#3B82F6"/>
+              <stop offset="100%" stop-color="#06B6D4"/>
+            </linearGradient>
+          </defs>
+          <!-- Outer Gradient Rounded Squircle -->
+          <rect x="4" y="4" width="56" height="56" rx="15" stroke="url(#htLogoGrad)" stroke-width="4.5"/>
+          <!-- Shopping Cart Body -->
+          <path d="M15 20H20.5L24.5 36.5C24.9 38.1 26.3 39.2 28 39.2H42.5C44.1 39.2 45.5 38.2 46 36.7L49.5 25.5H22.2" stroke="url(#htLogoGrad)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <!-- Cart Wheels -->
+          <circle cx="27.5" cy="45.5" r="2.8" stroke="url(#htLogoGrad)" stroke-width="2.8"/>
+          <circle cx="41.5" cy="45.5" r="2.8" stroke="url(#htLogoGrad)" stroke-width="2.8"/>
+          <!-- Dynamic Upward Growth Swoop Arrow -->
+          <path d="M18 37C24 41.5 36 35 48.5 19.5" stroke="url(#htArrowGrad)" stroke-width="3.8" stroke-linecap="round"/>
+          <path d="M41.5 19H49.2V26.7" stroke="url(#htArrowGrad)" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
       <span>High Tech Super Shop <span class="text-xs font-bold px-2 py-0.5 rounded-full align-middle ml-1" style="background:var(--soft);color:var(--brand)">V1.0</span></span>
     </a>
     <nav class="hidden md:flex gap-8 text-sm font-semibold muted" aria-label="Main">
@@ -318,6 +344,16 @@ h1, h2, h3, .disp {
 
       <div class="relative">
         <div class="receipt px-4 pt-4 min-h-[23rem] flex flex-col border border-slate-200" id="receipt" aria-live="polite">
+          <div class="flex justify-center mb-1.5">
+            <svg viewBox="0 0 64 64" class="w-8 h-8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="4" y="4" width="56" height="56" rx="15" stroke="url(#htLogoGrad)" stroke-width="4.5"/>
+              <path d="M15 20H20.5L24.5 36.5C24.9 38.1 26.3 39.2 28 39.2H42.5C44.1 39.2 45.5 38.2 46 36.7L49.5 25.5H22.2" stroke="url(#htLogoGrad)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="27.5" cy="45.5" r="2.8" stroke="url(#htLogoGrad)" stroke-width="2.8"/>
+              <circle cx="41.5" cy="45.5" r="2.8" stroke="url(#htLogoGrad)" stroke-width="2.8"/>
+              <path d="M18 37C24 41.5 36 35 48.5 19.5" stroke="url(#htArrowGrad)" stroke-width="3.8" stroke-linecap="round"/>
+              <path d="M41.5 19H49.2V26.7" stroke="url(#htArrowGrad)" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
           <div class="text-center font-bold tracking-tight text-slate-900">HIGH TECH SUPER SHOP V1.0</div>
           <div class="text-center opacity-70 text-[.68rem]">Bill #HT-00418 · Counter 02 · BDT</div>
           <hr class="my-2 border-dashed border-slate-300">
@@ -432,6 +468,16 @@ h1, h2, h3, .disp {
 <!-- CTA -->
 <section class="mx-auto max-w-6xl px-5 pb-20">
   <div class="rounded-3xl p-10 sm:p-14 text-center text-white shadow-2xl relative overflow-hidden" style="background:linear-gradient(135deg, #0F172A 0%, #312E81 55%, #831843 100%)">
+    <div class="mx-auto mb-5 w-16 h-16 rounded-2xl bg-white p-1.5 shadow-xl grid place-items-center">
+      <svg viewBox="0 0 64 64" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="4" y="4" width="56" height="56" rx="15" stroke="url(#htLogoGrad)" stroke-width="4.5"/>
+        <path d="M15 20H20.5L24.5 36.5C24.9 38.1 26.3 39.2 28 39.2H42.5C44.1 39.2 45.5 38.2 46 36.7L49.5 25.5H22.2" stroke="url(#htLogoGrad)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="27.5" cy="45.5" r="2.8" stroke="url(#htLogoGrad)" stroke-width="2.8"/>
+        <circle cx="41.5" cy="45.5" r="2.8" stroke="url(#htLogoGrad)" stroke-width="2.8"/>
+        <path d="M18 37C24 41.5 36 35 48.5 19.5" stroke="url(#htArrowGrad)" stroke-width="3.8" stroke-linecap="round"/>
+        <path d="M41.5 19H49.2V26.7" stroke="url(#htArrowGrad)" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
     <span class="inline-block px-3.5 py-1 rounded-full text-xs font-bold bg-white/15 mb-4">HIGH TECH SUPER SHOP V1.0</span>
     <h2 class="text-4xl sm:text-5xl font-extrabold">Upgrade your checkout counter today.</h2>
     <p class="mt-4 text-slate-200 max-w-lg mx-auto">Preloaded with BDT demo products so you can test scanning, coupons, and receipt printing right now.</p>
